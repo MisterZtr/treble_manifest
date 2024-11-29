@@ -2,10 +2,10 @@
 <manifest>
 <remote name="github" fetch="https://github.com/" />
 
-<project path="device/phh/treble" name="TrebleDroid/device_phh_treble" remote="github" revision="android-14.0" />
+<project path="device/phh/treble" name="TrebleDroid/device_phh_treble" remote="github" revision="android-15.0" />
 <project path="vendor/hardware_overlay" name="TrebleDroid/vendor_hardware_overlay" remote="github" revision="pie" />
 <project path="vendor/vndk-tests" name="phhusson/vendor_vndk-tests" remote="github" revision="master" />
-<project path="vendor/interfaces" name="TrebleDroid/vendor_interfaces" remote="github" revision="android-14.0" />
+<project path="vendor/interfaces" name="TrebleDroid/vendor_interfaces" remote="github" revision="android-15.0" />
 <project path="vendor/lptools" name="phhusson/vendor_lptools" remote="github" revision="master" />
 <project path="vendor/magisk" name="phhusson/vendor_magisk" remote="github" revision="android-10.0" />
 
