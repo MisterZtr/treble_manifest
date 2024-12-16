@@ -8,7 +8,7 @@
 <project path="vendor/vndk-tests" name="phhusson/vendor_vndk-tests" remote="git-hub" revision="master" />
 <project path="vendor/interfaces" name="TrebleDroid/vendor_interfaces" remote="git-hub" revision="android-15.0" />
 <project path="vendor/lptools" name="phhusson/vendor_lptools" remote="git-hub" revision="master" />
-<project path="vendor/magisk" name="phhusson/vendor_magisk" remote="git-hub" revision="android-10.0" />
+<project path="vendor/magisk" name="phhusson/vendor_magisk" remote="git-hub" revision="master" />
 
 <project path="packages/apps/QcRilAm" name="AndyCGYan/android_packages_apps_QcRilAm" remote="git-hub" revision="master" />
 
