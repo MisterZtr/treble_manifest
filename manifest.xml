@@ -17,7 +17,7 @@
 
 <project path="treble_adapter" name="ponces/treble_adapter" remote="git-hub" revision="master" />
 
-<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="vic" />
+<project path="vendor/gapps" name="MisterZtr/vendor_gapps" remote="gitlab" revision="vic" />
 
 <project path="packages/apps/FaceUnlock" name="Evolution-X/packages_apps_FaceUnlock" remote="git-hub" revision="vic" />
 
