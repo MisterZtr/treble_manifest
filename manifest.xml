@@ -20,6 +20,4 @@
 <project path="vendor/gapps" name="MisterZtr/vendor_gapps" remote="gitlab" revision="vic" />
 
 <project path="packages/apps/FaceUnlock" name="Evolution-X/packages_apps_FaceUnlock" remote="git-hub" revision="vic" />
-
-<project path="external/selinux" name="MisterZtr/platform_external_selinux" remote="git-hub" revision="android-15.0.0_r21-td" />
 </manifest>
