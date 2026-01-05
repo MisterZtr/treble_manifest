@@ -18,6 +18,7 @@
 
 <project path="treble_adapter" name="ponces/treble_adapter" remote="git-hub" revision="master" />
 
+<project path="LineageOS_gsi" name="MisterZtr/LineageOS_gsi" remote="git-hub" revision="lineage-22.2" />
 <project path="vendor/gapps" name="MisterZtr/vendor_gapps" remote="git-lab" revision="vic" />
 
 <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="git-hub" revision="lineage-22.2" />
