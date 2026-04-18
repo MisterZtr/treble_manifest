@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="git-hub" fetch="https://github.com/" />
-<remote name="git-lab" fetch="https://gitlab.com/" />
+    <remote name="git-hub" fetch="https://github.com/" />
+    <remote name="git-lab" fetch="https://gitlab.com/" />
 
-<project path="device/phh/treble" name="TrebleDroid/device_phh_treble" remote="git-hub" revision="android-16.0" />
-<project path="vendor/hardware_overlay" name="MisterZtr/vendor_hardware_overlay" remote="git-hub" revision="main" />
-<project path="vendor/vndk-tests" name="phhusson/vendor_vndk-tests" remote="git-hub" revision="master" />
-<project path="vendor/interfaces" name="TrebleDroid/vendor_interfaces" remote="git-hub" revision="android-16.0" />
-<project path="vendor/lptools" name="phhusson/vendor_lptools" remote="git-hub" revision="master" />
-<project path="vendor/magisk" name="phhusson/vendor_magisk" remote="git-hub" revision="android-10.0" />
+    <project path="device/phh/treble" name="TrebleDroid/device_phh_treble" remote="git-hub" revision="android-16.0" />
+    <project path="treble_app" name="TrebleDroid/treble_app" remote="git-hub" revision="master" />
+    <project path="vendor/hardware_overlay" name="MisterZtr/vendor_hardware_overlay" remote="git-hub" revision="main" />
+    <project path="vendor/vndk-tests" name="phhusson/vendor_vndk-tests" remote="git-hub" revision="master" />
+    <project path="vendor/interfaces" name="TrebleDroid/vendor_interfaces" remote="git-hub" revision="android-16.0" />
+    <project path="vendor/lptools" name="phhusson/vendor_lptools" remote="git-hub" revision="master" />
+    <project path="vendor/magisk" name="phhusson/vendor_magisk" remote="git-hub" revision="android-10.0" />
 
-<project path="packages/apps/QcRilAm" name="AndyCGYan/android_packages_apps_QcRilAm" remote="git-hub" revision="master" />
-<project path="packages/apps/FaceUnlock" name="Evolution-X/packages_apps_FaceUnlock" remote="git-hub" revision="bka" />
+    <project path="packages/apps/QcRilAm" name="AndyCGYan/android_packages_apps_QcRilAm" remote="git-hub" revision="master" />
 
-<project path="prebuilts/vndk/v28" name="naz664/prebuilts_vndk_v28" remote="git-hub" revision="master" />
-<project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" remote="aosp" clone-depth="1" revision="bef5d37dda9360940964f097d612c8032e140961" />
+    <project path="prebuilts/vndk/v28" name="naz664/prebuilts_vndk_v28" remote="git-hub" revision="master" />
+    <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" remote="aosp" clone-depth="1" revision="bef5d37dda9360940964f097d612c8032e140961" />
+    <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" remote="aosp" clone-depth="1" revision="5f9884aa352825291757dfd6694b874ad8c1805e" />
 
-<project path="LineageOS_gsi" name="MisterZtr/LineageOS_gsi" remote="git-hub" revision="lineage-23.0" />
-<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="git-lab" revision="baklava" />
+    <project path="LineageOS_gsi" name="MisterZtr/LineageOS_gsi" remote="git-hub" revision="lineage-23.2" />
+    <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="git-lab" revision="baklava" />
 
-<project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="git-hub" revision="lineage-23.0" />
+    <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="git-hub" revision="lineage-23.2" />
 </manifest>
