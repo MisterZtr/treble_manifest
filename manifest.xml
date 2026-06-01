@@ -21,4 +21,7 @@
     <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="git-lab" revision="baklava" />
 
     <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="git-hub" revision="lineage-23.2" />
+
+    <!-- FaceSense face unlock: app + vendor.aospa.biometrics.face AIDL + Megvii engine + overlay/permissions -->
+    <project path="packages/apps/FaceUnlock" name="Evolution-X/packages_apps_FaceUnlock" remote="git-hub" revision="bka" />
 </manifest>
